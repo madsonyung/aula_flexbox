@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex-container{
+    background-color: rgb(227, 236, 236);
+    width: 500px;
+    height: 500px;
+    /* ativar o display flex */
+    display: flex;
+
+    /* altera a direção dos elementos do container */
+    flex-direction: column;
+    /* centraliza os elementos no container justificados */
+    /* justify-content: space-evenly; */
+
+    /* jsutifica os itens na horizontal e centralizado */
+    justify-content:space-around;
+
+    /* alinha os itens na vertical */
+    align-items: center;
+
+    /* alinha os itens na parte de baixo do container */
+    /* align-items: flex-end; */
+
+}
+
+
+.flex-item {
+
+    height: 100px;
+    width: 100px;
+    
+}
+
+.primeiro {
+    background-color: rgb(190, 94, 94);
+}
+
+.segundo {
+    background-color: rgb(94, 166, 190);
+}
+
+.terceiro {
+    background-color: rgb(190, 94, 147);
+}
+
+.quarto {
+    background-color: rgb(182, 190, 94);
+}
